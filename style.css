@@ -1,0 +1,142 @@
+html{
+    font-size: 100%;
+}
+
+* {
+   color: black;
+}
+
+
+a:link {color: white;}
+a:visited {color: bisque;}
+a:active {color:beige;}
+
+body {
+    background-image: url("backgroundpattern (2).jpg")!important;
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Orelega One', cursive;
+}
+
+.header {
+    background:lightblue;
+    margin: 0;
+    padding: 0;
+    height: 20%;
+    width: 100%;
+    font-size:4rem;
+    color: black;
+    text-align: center;
+}
+
+.menu {
+    margin: 0;
+    padding-top: 2rem;
+    background-color: lightblue;
+    border-radius: 1rem;
+    border: black;
+    height: 3rem;
+    width: calc(100%-5px);
+    text-align: center;
+}
+
+.menu a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+
+main {
+    background-image: url("backgroundleaves (2).jpg");
+    background-repeat: repeat;
+    float: left;
+    border: pink;
+    border-radius: 2rem;
+    margin: 2rem;
+    padding: 40 px;
+    width: 73%;
+}
+
+
+.articlesection p{
+    text-align: justify;
+}
+
+
+.articlesection h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.advertisingsectio h2{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+aside{
+    border-radius: 1rem;
+    border: white solid thin;
+    color: black;
+    background-color: lightblue;
+    float: right;
+    margin-top: 2rem;
+    padding: 10px;
+    width:  20%;
+    height: auto;
+}
+
+.advertisingsection{
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.gifsection img{
+    width: 100%;
+    max-width:300px;
+    height: auto;
+}
+
+
+.footer{
+    background: lightblue;
+    color: black;
+    height: 2rem;
+    border-top: 2px violet;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+}
+
+iframe{
+    width: 100%;
+    max-width:30rem;
+    height: 20rem;
+    border: 0;
+}
+
+
+table{
+    border: black solid medium;
+    background-color: violet;
+    width:100%;
+    max-width:20rem ;
+    height: auto;
+}
+
+
+td, th {
+  border: pink;
+}
+
+#comment{
+    width: 100%;
+    max-width: 10rem;
+}
